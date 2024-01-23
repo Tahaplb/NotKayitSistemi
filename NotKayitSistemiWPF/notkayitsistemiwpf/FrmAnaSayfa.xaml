@@ -1,0 +1,20 @@
+﻿<Window x:Class="notkayitsistemiwpf.FrmAnaSayfa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:notkayitsistemiwpf"
+        mc:Ignorable="d"
+        Title="FrmAnaSayfa" Height="450" Width="650" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Not Bilgilendirme Sistemi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="537" Height="70" FontSize="40" FontWeight="Bold" Margin="84,32,0,0"></Label>
+        <Label Content="Öğrenci Girişi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="216" Height="70" FontSize="30" FontWeight="Bold" Margin="67,314,0,0"></Label>
+        <Button Name="btnKategori" Click="btnOgrenci_Click" BorderThickness="5" BorderBrush="CornflowerBlue" Margin="58,140,367,125" >
+            <Image Source="Images/graduated.png"/>
+        </Button>
+        <Button Name="btnUrun" Click="btnOgretmen_Click" BorderThickness="5" BorderBrush="CornflowerBlue" Margin="343,140,91,125" >
+            <Image Source="Images/female.png" />
+        </Button>
+        <Label Content="Öğretmen Girişi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="238" Height="70" FontSize="30" FontWeight="Bold" Margin="332,314,0,0"/>
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbNotKayıtModelStoreContainer" CdmEntityContainer="DbNotKayıtEntities">
+    <EntitySetMapping Name="Tbl_Ders">
+      <EntityTypeMapping TypeName="DbNotKayıtModel.Tbl_Ders">
+        <MappingFragment StoreEntitySet="Tbl_Ders">
+          <ScalarProperty Name="OGRID" ColumnName="OGRID" />
+          <ScalarProperty Name="OGRNUMARA" ColumnName="OGRNUMARA" />
+          <ScalarProperty Name="OGRAD" ColumnName="OGRAD" />
+          <ScalarProperty Name="OGRSOYAD" ColumnName="OGRSOYAD" />
+          <ScalarProperty Name="OGRS1" ColumnName="OGRS1" />
+          <ScalarProperty Name="OGRS2" ColumnName="OGRS2" />
+          <ScalarProperty Name="OGRS3" ColumnName="OGRS3" />
+          <ScalarProperty Name="ORTALAMA" ColumnName="ORTALAMA" />
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Users">
+      <EntityTypeMapping TypeName="DbNotKayıtModel.Tbl_Users">
+        <MappingFragment StoreEntitySet="Tbl_Users">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

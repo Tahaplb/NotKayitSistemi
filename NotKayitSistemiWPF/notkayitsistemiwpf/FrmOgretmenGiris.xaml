@@ -1,0 +1,53 @@
+﻿<Window x:Class="notkayitsistemiwpf.FrmOgretmenGiris"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:notkayitsistemiwpf"
+        mc:Ignorable="d"
+        Title="FrmOgretmenGiris" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <GroupBox Header="Öğrenci Ekle" Height="200" Margin="10,17,537,217"/>
+        <Label Content="Numara:" HorizontalAlignment="Left" Margin="52,64,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="112,68,0,0" TextWrapping="Wrap" Name="txtOgrNumara"  VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Ogrenci Ad: " HorizontalAlignment="Left" Margin="36,103,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="112,107,0,0" TextWrapping="Wrap" Name="txtOgrAd" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.933,0.726"/>
+
+        <Label Content="Öğrenci Soyad: " HorizontalAlignment="Left" Margin="19,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.15,0.541"/>
+        <TextBox HorizontalAlignment="Left" Margin="112,146,0,0" TextWrapping="Wrap" Name="txtOgrSoyad" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Kaydet" Name="ogrKaydet" Click="ogrKaydet_Click" HorizontalAlignment="Left" Margin="80,177,0,0" VerticalAlignment="Top" Height="26" Width="76" RenderTransformOrigin="1.053,0.848"/>
+
+
+        <GroupBox Header="Sınav Notları" Height="200" Margin="268,17,300,217"/>
+        <Label Content="Sınav 1: " HorizontalAlignment="Left" Margin="288,55,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="347,59,0,0" TextWrapping="Wrap" Name="txtSinav1" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Sınav 2:" HorizontalAlignment="Left" Margin="288,98,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="347,102,0,0" TextWrapping="Wrap" Name="txtSinav2" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Sınav 3: " HorizontalAlignment="Left" Margin="288,137,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="347,141,0,0" TextWrapping="Wrap" Name="txtSinav3" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Güncelle" HorizontalAlignment="Center" Margin="0,177,0,0" Name="btnGuncelle" Click="btnGuncelle_Click" VerticalAlignment="Top" Height="26" Width="79"/>
+
+
+
+        <GroupBox Header="Istatistik" Margin="524,22,38,217"/>
+
+
+        <DataGrid Name="dgGoster" Margin="0,222,0,0" SelectionChanged="dgGoster_SelectionChanged"/>
+        <Label Content="Ortalama:" HorizontalAlignment="Left" Margin="579,54,0,0" VerticalAlignment="Top"/>
+        <Label Content="00" Name="lblOrtalama" HorizontalAlignment="Left" Margin="667,51,0,0" VerticalAlignment="Top"/>
+        <Label Content="Geçen sayisi: " HorizontalAlignment="Left" Margin="560,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="00" Name="lblGecenSayisi" HorizontalAlignment="Left" Margin="667,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kalan Sayisi: " HorizontalAlignment="Left" Margin="564,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="00" Name="lblKalanSayisi" HorizontalAlignment="Left" Margin="667,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="AGNO: " HorizontalAlignment="Left" Margin="591,159,0,0" VerticalAlignment="Top"/>
+        <Label Content="00" Name="lblAgno" HorizontalAlignment="Left" Margin="667,159,0,0" VerticalAlignment="Top"/>
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="52,32,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="112,36,0,0" TextWrapping="Wrap" x:Name="txtOgrID"  VerticalAlignment="Top" Width="120"/>
+        <Button Content="Sil" x:Name="ogrSil" Click="ogrSil_Click" HorizontalAlignment="Left" Margin="172,177,0,0" VerticalAlignment="Top" Height="26" Width="60" RenderTransformOrigin="0.899,0.836"/>
+
+
+    </Grid>
+</Window>

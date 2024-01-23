@@ -1,0 +1,60 @@
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.AssemblyReference.cache
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.SuggestedBindingRedirects.cache
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmAnaSayfa.g.cs
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\MainWindow.g.cs
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\App.g.cs
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf_Content.g.cs
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf_MarkupCompile.cache
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf_MarkupCompile.lref
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\notkayitsistemiwpf.exe.config
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\notkayitsistemiwpf.exe
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\notkayitsistemiwpf.pdb
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\EntityFramework.dll
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\EntityFramework.xml
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmAnaSayfa.baml
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\MainWindow.baml
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.g.resources
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.Properties.Resources.resources
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.GenerateResource.cache
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.CoreCompileInputs.cache
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.CopyComplete
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.exe
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.pdb
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgrenciGiris.g.cs
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgretmenGiris.g.cs
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgrenciGiris.baml
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgretmenGiris.baml
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgrenciDetay.g.cs
+C:\Users\Metin\Desktop\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgrenciDetay.baml
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\notkayitsistemiwpf.exe.config
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\notkayitsistemiwpf.exe
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\notkayitsistemiwpf.pdb
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\EntityFramework.dll
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\EntityFramework.xml
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.AssemblyReference.cache
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.SuggestedBindingRedirects.cache
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmAnaSayfa.g.cs
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgrenciDetay.g.cs
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgrenciGiris.g.cs
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgretmenGiris.g.cs
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\MainWindow.g.cs
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\App.g.cs
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf_Content.g.cs
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf_MarkupCompile.cache
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf_MarkupCompile.lref
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmAnaSayfa.baml
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgrenciDetay.baml
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgrenciGiris.baml
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\FrmOgretmenGiris.baml
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\MainWindow.baml
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.g.resources
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.Properties.Resources.resources
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.GenerateResource.cache
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.CoreCompileInputs.cache
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.csproj.CopyComplete
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.exe
+C:\Users\Metin\Desktop\Programlama Dilleri\C# UI Projeler\NotKayitSistemiWPF\notkayitsistemiwpf\obj\Debug\notkayitsistemiwpf.pdb

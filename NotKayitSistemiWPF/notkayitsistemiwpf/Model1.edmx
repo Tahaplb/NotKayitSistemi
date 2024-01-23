@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DbNotKayıtModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Tbl_Ders">
+          <Key>
+            <PropertyRef Name="OGRID" />
+          </Key>
+          <Property Name="OGRID" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OGRNUMARA" Type="char" MaxLength="4" />
+          <Property Name="OGRAD" Type="varchar" MaxLength="15" />
+          <Property Name="OGRSOYAD" Type="varchar" MaxLength="20" />
+          <Property Name="OGRS1" Type="tinyint" />
+          <Property Name="OGRS2" Type="tinyint" />
+          <Property Name="OGRS3" Type="tinyint" />
+          <Property Name="ORTALAMA" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="DURUM" Type="bit" />
+        </EntityType>
+        <EntityType Name="Tbl_Users">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserName" Type="varchar" MaxLength="50" />
+          <Property Name="UserPassword" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="DbNotKayıtModelStoreContainer">
+          <EntitySet Name="Tbl_Ders" EntityType="Self.Tbl_Ders" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tbl_Users" EntityType="Self.Tbl_Users" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DbNotKayıtModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Tbl_Ders">
+          <Key>
+            <PropertyRef Name="OGRID" />
+          </Key>
+          <Property Name="OGRID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OGRNUMARA" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="OGRAD" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="OGRSOYAD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="OGRS1" Type="Byte" />
+          <Property Name="OGRS2" Type="Byte" />
+          <Property Name="OGRS3" Type="Byte" />
+          <Property Name="ORTALAMA" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="DURUM" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Tbl_Users">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="UserPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="DbNotKayıtEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Tbl_Ders" EntityType="Self.Tbl_Ders" />
+          <EntitySet Name="Tbl_Users" EntityType="Self.Tbl_Users" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DbNotKayıtModelStoreContainer" CdmEntityContainer="DbNotKayıtEntities">
+          <EntitySetMapping Name="Tbl_Ders">
+            <EntityTypeMapping TypeName="DbNotKayıtModel.Tbl_Ders">
+              <MappingFragment StoreEntitySet="Tbl_Ders">
+                <ScalarProperty Name="OGRID" ColumnName="OGRID" />
+                <ScalarProperty Name="OGRNUMARA" ColumnName="OGRNUMARA" />
+                <ScalarProperty Name="OGRAD" ColumnName="OGRAD" />
+                <ScalarProperty Name="OGRSOYAD" ColumnName="OGRSOYAD" />
+                <ScalarProperty Name="OGRS1" ColumnName="OGRS1" />
+                <ScalarProperty Name="OGRS2" ColumnName="OGRS2" />
+                <ScalarProperty Name="OGRS3" ColumnName="OGRS3" />
+                <ScalarProperty Name="ORTALAMA" ColumnName="ORTALAMA" />
+                <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tbl_Users">
+            <EntityTypeMapping TypeName="DbNotKayıtModel.Tbl_Users">
+              <MappingFragment StoreEntitySet="Tbl_Users">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
